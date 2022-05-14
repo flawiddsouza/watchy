@@ -33,7 +33,7 @@ function createProcess(args) {
 
 let spawnedProcess = createProcess(args)
 
-watch('*.js').on('change', async(file, stats) => {
+watch('**/*.js').on('change', async(file, stats) => {
     kill(spawnedProcess.pid, () => {
         spawnedProcess = null
         console.log('Changed: ' + file)

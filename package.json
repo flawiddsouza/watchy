@@ -1,7 +1,7 @@
 {
     "name": "watchy",
     "description": "A more generic lightweight alternative to nodemon. Usage: npx github:flawiddsouza/watchy node app.js",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/flawiddsouza/watchy.git"
